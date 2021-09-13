@@ -31,7 +31,7 @@ class myapp(QWidget):
         size = self.size() # 창 크기를 구함.
         print(f'높이와 넓이 : {size.height()}, {size.width()}')
         
-        for  _ in range(1000):
+        for _ in range(1000):
             pen.setColor(QColor(random.choice(colors)))
             pen.setWidth(random.randint(1, 20)) # 1부터 20까지 랜덤에 숫자 하나를 정해준다.
             paint.setPen(pen)
